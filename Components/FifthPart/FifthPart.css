@@ -1,0 +1,137 @@
+.FifthContainert {
+    height: 100%;
+    width: 100%;
+
+}
+
+.FifthImage img {
+    height: 70%;
+    width: 70%;
+    margin: 10px 50px;
+}
+
+.FifthTextbox {
+    display: block;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+
+
+}
+
+.FifthTextbox h6 {
+    color: rgb(100, 21, 255);
+    margin: 10px;
+}
+
+.FifthTextbox h6 {
+
+    margin: 10px 0;
+
+}
+
+.FifthTextbox p {
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.FifthDfalt {
+    margin: 20px auto;
+
+}
+
+.FifthDfalt span,
+.FifthDfalt h4 {
+    font-size: 1rem;
+    padding: 0 4px;
+
+}
+
+.FifthDfalt #he {
+    font-size: 1rem;
+
+}
+
+
+@media (min-width:987px) {
+    .FifthContainert {
+        display: flex;
+
+        height: 100%;
+        width: 100%;
+        padding: 0 70px;
+        margin: 130px auto;
+
+    }
+
+    .FifthImage img {
+        height: 100%;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .FifthTextbox {
+
+        align-items: start;
+
+        height: 100%;
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: left;
+        margin: 70px 20px;
+
+        padding: 0 50px;
+
+    }
+
+    .FifthTextbox {
+
+
+
+
+        font-size: 5rem;
+
+
+
+    }
+
+
+    .FifthTextbox h6 {
+
+        font-size: 2rem;
+    }
+
+    .FifthTextbox h3,
+    h3 span {
+        font-weight: bolder;
+    }
+
+
+    .FifthTextbox p {
+        line-height: 2.3rem;
+        font-size: 2rem;
+        padding: 10px 20px;
+
+    }
+
+
+
+    .FifthDfalt span,
+    .FifthDfalt h4 {
+        font-size: 2rem;
+        padding: 0 15px;
+    }
+
+    .FifthDfalt #he {
+        font-size: 2rem;
+
+        margin: 0 100px;
+    }
+
+
+}

@@ -1,0 +1,212 @@
+.FourthContainert {
+    height: 100%;
+    width: 100%;
+
+}
+
+.fourtImage img {
+    height: 70%;
+    width: 70%;
+    margin: 10px 50px;
+}
+
+.fourthTextbox {
+    display: block;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.fourthTextbox h6,
+h3 span {
+    color: rgb(100, 21, 255);
+}
+
+.fourthTextbox h3 {
+    padding: 5px 20px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.fourthTextbox p {
+    font-size: 1.5rem;
+
+    padding: 10px 10px;
+}
+
+.FourthSmallText {
+    display: inline;
+}
+
+.FourthSmallText .leftside {
+
+    margin: 25px auto;
+}
+
+.FourthSmallText .leftside span svg {
+    background-color: rgb(129 230 217);
+    border-radius: 200px;
+    color: black;
+}
+
+.FourthSmallText .leftside span {
+    padding: 5px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.FourthSmallText .leftside p {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.FourthSmallText .righttside {
+
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.FourthSmallText .rightside span svg {
+    background-color: rgb(129 230 217);
+    border-radius: 200px;
+    color: black;
+}
+
+.FourthSmallText .rightside span {
+    padding: 5px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0 20px
+}
+
+.FourthSmallText .rightside p {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.fourthbtn {
+    background-color: rgb(100, 21, 255);
+    margin: 10px 20px;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 9999px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media (min-width:987px) {
+
+    .FourthContainert {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100%;
+        width: 100%;
+        padding: 0 50px;
+        margin: 30px auto;
+
+    }
+
+    .fourtImage img {
+        height: 100%;
+        width: 100%;
+        margin: 1px 20px;
+    }
+
+    .fourthTextbox {
+        display: block;
+        align-items: start;
+
+        height: 70%;
+        width: 70%;
+        font-size: 3.5rem;
+        text-align: left;
+        margin: 50px 0;
+        padding: 10px 50px;
+
+    }
+
+    .fourthTextbox h6 {
+        font-size: 1.5rem;
+        padding: 0 0 0 10px;
+    }
+
+    .fourthTextbox h3 {
+        padding: 5px 100px 0 5px;
+        margin: 10px auto;
+        font-weight: bolder;
+        font-size: 5.5rem;
+    }
+
+    .fourthTextbox p {
+        font-size: 1.5rem;
+        padding: 0 10px;
+        font-size: 2rem;
+        color: grey;
+        font-weight: 500;
+    }
+
+    .FourthSmallText {
+        display: flex;
+    }
+
+    .FourthSmallText .leftside {
+
+        margin: 20px auto;
+        padding-left: 10px;
+    }
+
+
+
+    .FourthSmallText .leftside span {
+        padding: 5px;
+        font-size: 2.5rem;
+        font-weight: 500;
+
+    }
+
+    .FourthSmallText .leftside p {
+        margin: 10px auto;
+        text-align: left;
+        font-size: 1.6rem;
+
+    }
+
+    .rightside {
+
+        margin: 20px;
+
+    }
+
+
+
+    .FourthSmallText .rightside span {
+        padding: 5px;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+
+
+    .FourthSmallText .rightside p {
+        margin: 10px auto;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .fourthbtn {
+
+        margin: 0px 0 130px 30px;
+
+
+
+
+    }
+
+}
