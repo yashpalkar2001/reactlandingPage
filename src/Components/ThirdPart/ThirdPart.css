@@ -1,0 +1,225 @@
+ .thirdContainer {
+     height: 100%;
+     width: 100%;
+
+
+ }
+
+ .thirdHeading {
+     font-size: 2rem;
+
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     padding: 80px 30px;
+ }
+
+ .thirdHeading h6,
+ h1 span {
+     display: inline-block;
+     color: rgb(100, 21, 255);
+     margin: 0 15px;
+ }
+
+ .thirdHeading p {
+     font-size: 1.5rem;
+     text-align: center;
+     margin: 15px;
+     letter-spacing: 0.1rem;
+     line-height: 2rem;
+ }
+
+ /* .thirdbox {}
+
+ /* .thirdbox .image img {
+     display: block;
+     align-items: center;
+     text-align: center;
+     padding: 15px 100px;
+ }
+
+ .thirdbox .title {
+     display: block;
+     font-size: 2.5rem;
+     align-items: center;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .thirdbox p {
+     font-size: 1.5rem;
+     line-height: 3rem;
+
+ } */
+ .thirdbox {
+
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 20px 80px;
+     align-items: center;
+
+
+ }
+
+
+
+ .thirdbox #box1 {
+
+     display: inline;
+
+     margin: 25px;
+
+
+ }
+
+ .thirdbox #box2 {
+     display: inline;
+     margin: 25px;
+
+ }
+
+ .thirdbox #box3 {
+     display: inline;
+     margin: 25px;
+ }
+
+ .thirdbox #box4 {
+     display: inline;
+     margin: 25px;
+ }
+
+ .thirdbox #box5 {
+     display: inline;
+     margin: 25px;
+ }
+
+ .thirdbox #box6 {
+     display: inline;
+     margin: 25px;
+ }
+
+ .thirdbox .image img {
+
+     align-items: center;
+     text-align: center;
+
+ }
+
+ .thirdbox .title {
+
+     font-size: 2.5rem;
+     align-items: center;
+     font-weight: bold;
+     margin: 10px;
+
+
+ }
+
+ .thirdbox p {
+
+
+     font-size: 1.5rem;
+     line-height: 3rem;
+     margin: 3px;
+
+
+
+
+ }
+
+ @media (min-width:987px) {
+     .thirdHeading {
+         font-size: 3rem;
+
+
+     }
+
+     .thirdHeading p {
+         font-size: 1.5rem;
+         text-align: center;
+         padding: 5px 70px;
+
+     }
+
+     .thirdbox {
+
+         height: 100%;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         padding: 20px 300px;
+         align-items: center;
+
+
+     }
+
+
+
+     .thirdbox #box1 {
+
+         display: inline;
+
+         margin: 25px;
+
+
+     }
+
+     .thirdbox #box2 {
+         display: inline;
+         margin: 25px;
+
+     }
+
+     .thirdbox #box3 {
+         display: inline;
+         margin: 25px;
+     }
+
+     .thirdbox #box4 {
+         display: inline;
+         margin: 25px;
+     }
+
+     .thirdbox #box5 {
+         display: inline;
+         margin: 25px;
+     }
+
+     .thirdbox #box6 {
+         display: inline;
+         margin: 25px;
+     }
+
+     .thirdbox .image img {
+
+         align-items: center;
+         text-align: center;
+
+     }
+
+     .thirdbox .title {
+
+         font-size: 2.5rem;
+         align-items: center;
+         font-weight: bold;
+         margin: 10px;
+
+
+     }
+
+     .thirdbox p {
+
+
+         font-size: 1.5rem;
+         line-height: 3rem;
+         margin: 3px;
+
+
+
+
+     }
+ }

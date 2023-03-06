@@ -1,0 +1,337 @@
+.SixContainer {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    margin: 150px auto;
+}
+
+.SixtUpperbox {
+    display: block;
+
+
+    text-align: center;
+
+}
+
+.SixtUpperbox h6 {
+    font-size: 1.5rem;
+    color: rgb(100, 21, 255);
+    padding: 10px 0;
+}
+
+.SixtUpperbox h3 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.SixtUpperbox p {
+    font-size: 1.5rem;
+    margin: 15px auto;
+}
+
+.SixthSecondBox {
+    display: block;
+    padding: 0 50px;
+
+}
+
+.SixthSecondBox .PrinceCo1 {
+
+    height: 100%;
+
+    text-align: center;
+    font-size: 3rem;
+    margin: 70px 0;
+    box-shadow: 20px 20px 50px #888888
+}
+
+.PrinceCo1 .freeplanUpper {
+
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+.btnContainer {
+    padding: 2px 2px;
+    margin: 10px auto;
+    border-radius: 9999px;
+
+}
+
+.btnContainer button {
+    padding: 13px 50px;
+    border-radius: 9999px;
+    border: none;
+
+}
+
+.btnContainer button:active {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.btnContainer .month:active {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.btnContainer .year:active {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+/* .colorChange {
+    background-color: blue;
+    color: white;
+} */
+
+
+.PrinceCo1 .freeplanUpper span {
+    font-size: 2rem;
+    color: grey;
+}
+
+.PrinceCo1 .freeplanUpper h3 {
+
+    padding: 4px;
+}
+
+.PrinceCo1 .freeplanUpper h6 {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.PrinceCo1 .freeplanLower {
+    margin: 30px auto;
+}
+
+.PrinceCo1 .freeplanLower h6 {
+    padding: 6px;
+    color: rgb(162, 154, 154)
+}
+
+.PrinceCo1 .freeplanLower button {
+    padding: 20px 70px;
+    margin: 20px;
+    background-color: rgb(100, 21, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 9999px;
+    border: none;
+}
+
+/* second box styling(  */
+
+.SixthSecondBox .PrinceCo2 {
+
+    height: 100%;
+
+    text-align: center;
+    font-size: 3rem;
+    margin: 70px auto;
+    box-shadow: 20px 20px 50px #888888;
+}
+
+.PrinceCo2 .ProplanUpper {
+
+    padding-bottom: 10px;
+    background-color: whitesmoke
+}
+
+.PrinceCo2 .ProplanUpper span {
+    font-size: 2rem;
+    color: grey;
+}
+
+.PrinceCo2 .ProplanUpper h3 {
+
+    padding: 4px;
+}
+
+.PrinceCo2 .ProplanUpper h6 {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.PrinceCo2 .ProplanLower {
+    margin: 30px auto;
+}
+
+.PrinceCo2 .ProplanLower h6 {
+    padding: 6px;
+    color: rgb(162, 154, 154)
+}
+
+.PrinceCo2 .ProplanLower button {
+    padding: 20px 70px;
+    margin: 20px;
+    background-color: rgb(100, 21, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 9999px;
+    border: none;
+}
+
+@media(min-width:987px) {
+    .SixthSecondBox {
+        display: flex;
+
+        padding: 20px 200px;
+    }
+
+    .SixthSecondBox .PrinceCo1 {
+        margin: 50px 30px;
+
+    }
+
+    .SixthSecondBox .PrinceCo2 {
+        margin: 50px 30px;
+        margin-top: 50px;
+    }
+
+    .PrinceCo1 .freeplanUpper span {
+        font-size: 3rem;
+        padding: 10px 50px;
+
+    }
+
+    .PrinceCo1 .freeplanUpper span {
+        font-size: 1.5rem;
+        display: inline;
+        padding: 0 3px;
+
+    }
+
+    .PrinceCo1 .freeplanUpper h3 {
+        font-size: 2rem;
+    }
+
+    .PrinceCo1 .freeplanUpper h6 {
+        font-size: 1.5rem;
+
+    }
+
+
+    .PrinceCo1 .freeplanLower h6 {
+        font-size: 1.5rem;
+    }
+
+    /*sencond pricebox*/
+    .PrinceCo2 .ProplanUpper {
+        padding: 0 2px;
+    }
+
+    .PrinceCo2 .ProplanUpper span {
+        font-size: 1.5rem;
+        display: inline;
+        padding: 0 1px;
+
+    }
+
+    .PrinceCo2 .ProplanUpper h3 {
+        font-size: 2rem;
+    }
+
+    .PrinceCo2 .ProplanUpper h6 {
+        font-size: 1.5rem;
+        padding: 0 2px;
+    }
+
+    .PrinceCo2 .ProplanLower h6 {
+        font-size: 1.5rem;
+    }
+
+    .PrinceCo2 .freeplanLower button {
+        padding: 10px 40px;
+
+    }
+
+    .PrinceCo2 .ProplanLower button {
+        padding: 10px 40px;
+
+    }
+}
+
+@media(min-width:1100px) {
+    .SixthSecondBox {
+
+        padding: 20px 450px;
+    }
+
+    .SixthSecondBox .PrinceCo1 {
+        margin: 50px 30px;
+
+
+    }
+
+    .SixthSecondBox .PrinceCo2 {
+        margin: 50px 30px;
+        margin-top: 50px;
+    }
+
+    .PrinceCo1 .freeplanUpper span {
+        font-size: 3rem;
+        padding: 10px 50px;
+
+    }
+
+    .PrinceCo1 .freeplanUpper span {
+        font-size: 1.5rem;
+        display: inline;
+        padding: 0 3px;
+
+    }
+
+    .PrinceCo1 .freeplanUpper h3 {
+        font-size: 2rem;
+    }
+
+    .PrinceCo1 .freeplanUpper h6 {
+        font-size: 1.5rem;
+
+    }
+
+
+    .PrinceCo1 .freeplanLower h6 {
+        font-size: 1.5rem;
+    }
+
+    /*sencond pricebox*/
+    .PrinceCo2 .ProplanUpper {
+        padding: 0 2px;
+    }
+
+    .PrinceCo2 .ProplanUpper span {
+        font-size: 1.5rem;
+        display: inline;
+        padding: 0 1px;
+
+    }
+
+    .PrinceCo2 .ProplanUpper h3 {
+        font-size: 2rem;
+    }
+
+    .PrinceCo2 .ProplanUpper h6 {
+        font-size: 1.5rem;
+        padding: 0 2px;
+    }
+
+    .PrinceCo2 .ProplanLower h6 {
+        font-size: 1.5rem;
+    }
+
+    .PrinceCo1 .freeplanLower button {
+        padding: 10px 40px;
+
+    }
+
+    .PrinceCo2 .ProplanLower button {
+        padding: 10px 40px;
+
+    }
+}

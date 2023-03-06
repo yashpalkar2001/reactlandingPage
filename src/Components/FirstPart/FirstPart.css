@@ -1,0 +1,335 @@
+.container {
+    width: 100%;
+    margin: left -20px;
+
+
+}
+
+.sec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 200 px;
+
+    margin: 0 10px;
+    margin-top: 50px;
+    height: 70%;
+}
+
+
+
+
+
+
+.left {
+
+    width: 100%;
+
+    align-items: center;
+    padding: 10px 0 0 0px;
+    margin-bottom: 20px;
+    margin: 0 3rem;
+
+}
+
+.left h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: rgb(60 13 153);
+    padding: 20px 0 0 0;
+}
+
+.left p {
+
+    width: 100%;
+
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #4c4545;
+    margin: 25px 100px 0 0;
+
+
+
+
+}
+
+.left button {
+    display: block;
+    margin: 30px 100px 0 20px;
+    padding: 15px 40px;
+    border-radius: 9999px;
+    background-color: rgb(100, 21, 255);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+.List {
+
+    margin-top: 20px;
+    padding: 10px;
+    color: black;
+
+}
+
+.left li {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0px 0 0px 4px;
+    margin: 15px 100px 0 20px;
+
+}
+
+.left .List span {
+    color: black;
+
+}
+
+
+.left li svg {
+    color: blue;
+    padding: 0px 15px 0x 0px;
+
+}
+
+
+
+
+.right {
+    width: 100%;
+
+}
+
+
+
+
+.onBg {
+    display: none;
+    position: absolute;
+    top: 27%;
+    left: 72.3%;
+    height: 73%;
+    width: 21%;
+    border-radius: 5px;
+
+    background-color: rgb(226 232 240);
+}
+
+
+
+.right img {
+
+    width: 90%;
+    height: 100%;
+    margin: 50px 10px;
+    margin-bottom: 0;
+
+    border-radius: 5px;
+
+
+
+
+
+}
+
+.right .Textbox {
+
+
+    width: 90%;
+
+    margin: -3px 10px;
+    margin-bottom: 0;
+    background-color: rgb(60 13 153);
+    color: white;
+
+
+}
+
+.Textbox p {
+    padding: 10px 20px;
+
+    font-size: 2rem;
+    text-align: justify;
+
+}
+
+.Textbox span {
+    display: block;
+    padding: 0 0 0 3px;
+
+    margin: 7px;
+    margin-left: 7px;
+    font-size: 2.3rem;
+    font-weight: 400;
+
+}
+
+@media (min-width:987px) {
+    .container {
+        width: 100%;
+
+
+        margin: auto;
+
+    }
+
+    .sec {
+        height: 70%;
+        display: flex;
+        justify-content: space-between;
+
+
+
+        margin: 0 80px;
+        margin-top: 100px;
+
+
+    }
+
+    .left {
+
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        padding: 10px 0 0 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .left h1 {
+        font-size: 65px;
+        font-weight: bolder;
+        color: rgb(60 13 153);
+        padding: 20px 0 0 0;
+    }
+
+    .left p {
+
+        width: 70%;
+        display: inline-block;
+        text-align: justify;
+        font-size: medium;
+        color: #4c4545;
+        margin: 25px 100px 0 0;
+
+
+
+
+    }
+
+    .left button {
+        display: block;
+        margin: 30px 100px 0 20px;
+        padding: 15px 60px;
+        border-radius: 9999px;
+        background-color: rgb(100, 21, 255);
+        color: white;
+        border: none;
+        font-weight: bold;
+        font-size: medium;
+
+    }
+
+    .List {
+        margin-top: 20px;
+        padding: 10px;
+
+    }
+
+    .left li {
+        list-style: none;
+        line-height: 0px;
+        padding: 0px 0 3px 4px;
+        margin: 15px 100px 0 20px;
+
+    }
+
+
+    .left li span,
+    svg {
+        color: blue;
+        padding: 0px 10px 0x 0px;
+        margin-right: 4px;
+    }
+
+
+
+
+    .right {
+        width: 50%;
+
+    }
+
+    .right .box {
+        display: block;
+        margin: auto;
+
+        align-items: center;
+        margin: 20px 20px;
+    }
+
+
+
+    .onBg {
+        display: block;
+        position: absolute;
+        top: 27%;
+        left: 72.3%;
+        height: 73%;
+        width: 21%;
+        border-radius: 5px;
+
+        background-color: rgb(226 232 240);
+    }
+
+
+
+    .right img {
+
+        width: 23%;
+        height: 70%;
+        position: absolute;
+        top: 15%;
+        right: 12%;
+        border-radius: 5px;
+
+
+
+
+
+    }
+
+    .right .Textbox {
+        height: 25%;
+        width: 25%;
+        position: absolute;
+        top: 67%;
+        right: 20%;
+        background-color: rgb(60 13 153);
+        color: white;
+
+
+    }
+
+    .Textbox p {
+        margin: 10px 0 0 10px;
+        padding: 20px 20px;
+        font-size: small;
+        text-align: justify;
+
+    }
+
+    .Textbox span {
+        display: block;
+        padding: 0 0 0 3px;
+
+        margin: 7px;
+        margin-left: 30px;
+        font-weight: 400;
+
+    }
+
+}
